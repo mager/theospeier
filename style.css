@@ -37,11 +37,16 @@ body {
 #close {
   z-index: 9999;
   display: none;
-  border: 1px solid red;
-  font-size: 80px;
+  font-style: italic;
+  font-family: Georgia;
+  font-size: 84px;
   position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #fff;
+  top: 50px;
+  left: 50px;
+  color: #ddd;
   cursor: pointer;
+}
+
+#close:hover {
+  color: #aaa;
 }
