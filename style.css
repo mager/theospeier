@@ -10,14 +10,22 @@ body {
 }
 
 #reach {
-	font-size: 40px;
-	text-align: center;
+	font-size: 52px;
+	text-align: right;
 	padding: 50px;
   font-weight: bold;
 }
 
-#reach a {
+#reach a, #reach:visited {
   cursor: pointer;
+  color: #ddd;
+  text-decoration: none;
+}
+
+#reach a:hover {
+  cursor: pointer;
+  color: #aaa;
+  text-decoration: underline;
 }
 
 #form {
@@ -35,4 +43,5 @@ body {
   top: 20px;
   left: 20px;
   color: #fff;
+  cursor: pointer;
 }
