@@ -8,6 +8,7 @@ $(document).ready(function() {
         console.log('back');
         $("#form").fadeOut();
         $("#main").fadeIn();
+        $("#close").fadeOut();
     });
 
 
