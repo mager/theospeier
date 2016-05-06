@@ -1,14 +1,13 @@
 $(document).ready(function() {
    $("#reach").click(function(){
         $("#form").fadeIn();
-        $("#main").css('display', 'none');
+        $("#reach").fadeOut()
         $("body").css('background-image', 'none');
         $("#close").fadeIn();
     });
     $("#close").click(function(){
-        console.log('back');
         $("#form").fadeOut();
-        $("#main").css('display', 'block');
+        $("#reach").fadeIn();
         $("body").css('background-image', 'url(\'img/cover.jpg\')');
         $("#close").fadeOut();
     });
