@@ -14,21 +14,24 @@ body {
 }
 
 #reach {
-	font-size: 52px;
+	font-size: 40px;
 	text-align: right;
 	padding: 50px;
   	font-weight: bold;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
 }
 
 #reach a, #reach:visited {
 	cursor: pointer;
-	color: #ddd;
+	color: #ccc;
 	text-decoration: none;
 }
 
 #reach a:hover {
 	cursor: pointer;
-	color: #aaa;
+	color: #fff;
 	text-decoration: underline;
 }
 
