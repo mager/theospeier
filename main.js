@@ -1,13 +1,13 @@
 $(document).ready(function() {
    $("#reach").click(function(){
         $("#form").fadeIn();
-        $("#main").fadeOut();
+        $("#main").css('display', 'none');
         $("#close").fadeIn();
     });
     $("#close").click(function(){
         console.log('back');
         $("#form").fadeOut();
-        $("#main").fadeIn();
+        $("#main").css('display', 'block');
         $("#close").fadeOut();
     });
 

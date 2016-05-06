@@ -42,7 +42,7 @@ body {
   font-size: 84px;
   position: absolute;
   top: 50px;
-  right: 50px;
+  left: 50px;
   color: #ddd;
   cursor: pointer;
 }
